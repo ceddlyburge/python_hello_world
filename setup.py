@@ -19,9 +19,6 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
 	install_requires=[
-        'python_world>=0.0',
-    ],
-    dependency_links=[
-        'git+https://github.com/ceddlyburge/python_world#egg=python_world-0.0.1',
+        'python_world@git+https://github.com/ceddlyburge/python_world#egg=python_world-0.0.1',
     ]
 )
